@@ -5,8 +5,10 @@
 //  Created by Aashutosh Shrestha on 3/13/23.
 //
 
-#import <Foundation/Foundation.h>
+#define PLUGIN_NAME String("GodotJWT")
 
-@interface godot_jwt : NSObject
+#define JWT_ENCODE_SUCCESS "jwt_encode_success"
+#define JWT_DECODE_SUCCESS "jwt_decode_success"
 
-@end
+void godot_jwt_init();
+void godot_jwt_deinit();

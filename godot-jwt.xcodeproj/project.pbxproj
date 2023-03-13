@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6ECF71FA29BEE4AC00A9349A /* godot_jwt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF71F929BEE4AC00A9349A /* godot_jwt.mm */; };
 		6ECF71FB29BEE4AC00A9349A /* godot_jwt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6ECF71F829BEE4AC00A9349A /* godot_jwt.h */; };
+		6ECF720429BEEF6200A9349A /* godot_jwt_implementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF720329BEEF6200A9349A /* godot_jwt_implementation.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		6ECF71F529BEE4AC00A9349A /* libgodot-jwt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgodot-jwt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECF71F829BEE4AC00A9349A /* godot_jwt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = godot_jwt.h; sourceTree = "<group>"; };
 		6ECF71F929BEE4AC00A9349A /* godot_jwt.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = godot_jwt.mm; sourceTree = "<group>"; };
+		6ECF720229BEEEFF00A9349A /* godot_jwt_implementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = godot_jwt_implementation.h; sourceTree = "<group>"; };
+		6ECF720329BEEF6200A9349A /* godot_jwt_implementation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = godot_jwt_implementation.mm; sourceTree = "<group>"; };
+		6ECF720529BEF07900A9349A /* godot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = godot; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		6ECF71EC29BEE4AC00A9349A = {
 			isa = PBXGroup;
 			children = (
+				6ECF720529BEF07900A9349A /* godot */,
 				6ECF71F729BEE4AC00A9349A /* godot-jwt */,
 				6ECF71F629BEE4AC00A9349A /* Products */,
 			);
@@ -62,6 +67,8 @@
 			children = (
 				6ECF71F829BEE4AC00A9349A /* godot_jwt.h */,
 				6ECF71F929BEE4AC00A9349A /* godot_jwt.mm */,
+				6ECF720229BEEEFF00A9349A /* godot_jwt_implementation.h */,
+				6ECF720329BEEF6200A9349A /* godot_jwt_implementation.mm */,
 			);
 			path = "godot-jwt";
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECF71FA29BEE4AC00A9349A /* godot_jwt.mm in Sources */,
+				6ECF720429BEEF6200A9349A /* godot_jwt_implementation.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +253,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFZAD2LF3N;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/godot",
+					"$(SRCROOT)/godot/core",
+					"$(SRCROOT)/godot/main",
+					"$(SRCROOT)/godot/platform",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -257,6 +271,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFZAD2LF3N;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/godot",
+					"$(SRCROOT)/godot/core",
+					"$(SRCROOT)/godot/main",
+					"$(SRCROOT)/godot/platform",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
