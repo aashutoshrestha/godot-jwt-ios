@@ -1,0 +1,16 @@
+PODS:
+  - CupertinoJWT (0.2.0)
+
+DEPENDENCIES:
+  - CupertinoJWT
+
+SPEC REPOS:
+  trunk:
+    - CupertinoJWT
+
+SPEC CHECKSUMS:
+  CupertinoJWT: f712fdc2cc422aac8daa301ad1dce05ea9f6b6d6
+
+PODFILE CHECKSUM: b3fe32f2e27e31854cdf5bbf83abdea581af33be
+
+COCOAPODS: 1.11.3
