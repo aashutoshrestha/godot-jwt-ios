@@ -1,0 +1,17 @@
+[config]
+name="GodotJWT"
+binary="godotjwt/libgodot-jwt.a"
+
+initialization="godot_jwt_init"
+deinitialization="godot_jwt_deinit"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=["godotjwt/AuthKey_T3DPA47M72.p8"]
+
+[plist]
