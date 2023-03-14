@@ -12,6 +12,6 @@ system=[]
 
 capabilities=[]
 
-files=["godotjwt/AuthKey_T3DPA47M72.p8"]
+files=["godotjwt/AuthKey_*******.p8"]
 
 [plist]
