@@ -13,6 +13,7 @@
 		6ECF720429BEEF6200A9349A /* godot_jwt_implementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF720329BEEF6200A9349A /* godot_jwt_implementation.mm */; };
 		6ECF720829BEF28700A9349A /* GodotJWTSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF720729BEF28700A9349A /* GodotJWTSwift.swift */; };
 		6ECF720C29BF1CDC00A9349A /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF720B29BF1CDC00A9349A /* Configs.swift */; };
+		6ECF720E29BF34FB00A9349A /* JWTPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF720D29BF34FB00A9349A /* JWTPayload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		6ECF720729BEF28700A9349A /* GodotJWTSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodotJWTSwift.swift; sourceTree = "<group>"; };
 		6ECF720A29BF181C00A9349A /* AuthKey_T3DPA47M72.p8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = AuthKey_T3DPA47M72.p8; sourceTree = "<group>"; };
 		6ECF720B29BF1CDC00A9349A /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		6ECF720D29BF34FB00A9349A /* JWTPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTPayload.swift; sourceTree = "<group>"; };
 		8FC240A50D996E8A7EFBD7C2 /* Pods_godot_jwt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_godot_jwt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A43CEBFE26F2A6C18B24230 /* Pods-godot-jwt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godot-jwt.debug.xcconfig"; path = "Target Support Files/Pods-godot-jwt/Pods-godot-jwt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				6ECF720329BEEF6200A9349A /* godot_jwt_implementation.mm */,
 				6ECF720729BEF28700A9349A /* GodotJWTSwift.swift */,
 				6ECF720B29BF1CDC00A9349A /* Configs.swift */,
+				6ECF720D29BF34FB00A9349A /* JWTPayload.swift */,
 				6ECF720629BEF28700A9349A /* godot-jwt-Bridging-Header.h */,
 			);
 			path = "godot-jwt";
@@ -194,6 +197,7 @@
 				6ECF71FA29BEE4AC00A9349A /* godot_jwt.mm in Sources */,
 				6ECF720C29BF1CDC00A9349A /* Configs.swift in Sources */,
 				6ECF720429BEEF6200A9349A /* godot_jwt_implementation.mm in Sources */,
+				6ECF720E29BF34FB00A9349A /* JWTPayload.swift in Sources */,
 				6ECF720829BEF28700A9349A /* GodotJWTSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

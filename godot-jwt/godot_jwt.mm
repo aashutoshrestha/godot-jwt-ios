@@ -14,12 +14,12 @@
 
 GodotJWT *plugin;
 
-void godot_apple_signin_init() {
+void godot_jwt_init() {
     plugin = memnew(GodotJWT);
     Engine::get_singleton()->add_singleton(Engine::Singleton(PLUGIN_NAME, plugin));
 }
 
-void godot_apple_signin_deinit() {
+void godot_jwt_deinit() {
     if (plugin) {
        memdelete(plugin);
    }
