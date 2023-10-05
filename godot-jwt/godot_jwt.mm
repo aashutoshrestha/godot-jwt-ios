@@ -12,15 +12,15 @@
 
 #include "core/engine.h"
 
-GodotJWT *plugin;
+GodotJWT *godotJWT;
 
 void godot_jwt_init() {
-    plugin = memnew(GodotJWT);
-    Engine::get_singleton()->add_singleton(Engine::Singleton(PLUGIN_NAME, plugin));
+    godotJWT = memnew(GodotJWT);
+    Engine::get_singleton()->add_singleton(Engine::Singleton(PLUGIN_NAME, godotJWT));
 }
 
 void godot_jwt_deinit() {
-    if (plugin) {
-       memdelete(plugin);
+    if (godotJWT) {
+       memdelete(godotJWT);
    }
 }

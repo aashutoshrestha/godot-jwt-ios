@@ -324,10 +324,10 @@
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = KFZAD2LF3N;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/godot",
-					"$(SRCROOT)/godot/core",
-					"$(SRCROOT)/godot/main",
-					"$(SRCROOT)/godot/platform",
+					"$(HOME)/Projects/godot/main",
+					"$(HOME)/Projects/godot/core",
+					"$(HOME)/Projects/godot/platform/iphone",
+					"$(HOME)/Projects/godot",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,10 +353,10 @@
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = KFZAD2LF3N;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/godot",
-					"$(SRCROOT)/godot/core",
-					"$(SRCROOT)/godot/main",
-					"$(SRCROOT)/godot/platform",
+					"$(HOME)/Projects/godot/main",
+					"$(HOME)/Projects/godot/core",
+					"$(HOME)/Projects/godot/platform/iphone",
+					"$(HOME)/Projects/godot",
 				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
